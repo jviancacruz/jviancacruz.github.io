@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Janah Vianca Cruz | Computer Science Student</title>
+<meta name="description" content="Portfolio of Janah Vianca Cruz, a Computer Science student at De La Salle University Manila. Full-stack, IoT and testing projects built with real stakeholders.">
+<meta name="theme-color" content="#2596be">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<!-- Background video: keep background-video.mp4 in the same folder as this file -->
+<video class="bg-video" id="bgVideo" autoplay muted loop playsinline aria-hidden="true">
+  <source src="background-video.mp4" type="video/mp4">
+</video>
+<div class="bg-shade" aria-hidden="true"></div>
+
+<div class="topbar">
+  <div class="inner">
+    <a class="brand" href="#top">Janah Vianca Cruz</a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#other">Other projects</a></li>
+        <li><a href="#experience">Organizations</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <img class="avatar" src="profile.jpg" alt="Photo of Janah Vianca Cruz" width="300" height="300">
+  <p class="namestatement">Janah Vianca Cruz</p>
+  <p class="tag">4th Year BS Computer Science • De La Salle University Manila - Laguna Campus</p>
+  <div class="hero-actions">
+    <a class="btn plain primary" href="#projects">See my projects</a>
+    <a class="btn plain" href="#contact">Get in touch</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="about" class="band">
+    <div class="inner">
+      <p class="eyebrow">About</p>
+      <p class="about-text">I’m a Computer Science student at De La Salle University Manila - Laguna Campus, part of the first batch of its Challenge-Based Learning program, where projects are built to solve real-world problems. I build web, machine learning, and IoT projects with my teams, and I start by talking to the people who will use them so each project fits their needs. I’m eager to keep learning by applying my classroom skills in a real workplace, on a team where I can contribute, learn from experienced people, and keep growing.</p>
+    </div>
+  </section>
+
+  <section id="education" class="band">
+    <div class="inner">
+      <p class="eyebrow">Education</p>
+      <ul class="timeline">
+        <li><span class="when">Expected 2027</span><div><strong>De La Salle University Manila</strong><p>BS Computer Science, Challenge-Based Learning (CBL). I am part of the first batch of this program.</p><p>Lasallian Scholar with Dean's List recognition.</p></div></li>
+        <li><span class="when">2017 to 2023</span><div><strong>Quezon City Science High School</strong><p>Graduated with honors.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="band">
+    <div class="inner">
+      <p class="eyebrow">Projects</p>
+      <h2>Academic Projects</h2>
+
+      <!-- 01 BayaniHub -->
+      <article class="feature">
+        <div class="feature-text">
+          <p class="num" aria-hidden="true">01</p>
+          <h3>BayaniHub</h3>
+          <p class="meta">CSR platform for Companies. Software engineering course, team of 5.</p>
+          <p>A platform that helps a company’s CSR committee find verified NGOs, track monetary, goods and volunteer needs in one place, and keep a record of receipts and cumulative impact. We interviewed stakeholders and possible users which shaped the problem analysis and requirements of the system.</p>
+          <dl>
+            <dt>My role</dt>
+            <dd>Stakeholder liaison and full-stack contributor. I found and arranged the interviews with the company's HR team and a public school principal, designed the database schema, and built parts of the backend and frontend.</dd>
+            <dt>Stack</dt>
+            <dd>React on Vercel, Node.js API on Railway, PostgreSQL with Prisma.</dd>
+            <dt>Problems solved</dt>
+            <dd>Slow discovery of verified NGOs that need help, receipts that may get lost, and separate trackers for monetary, goods and volunteers.</dd>
+          </dl>
+        </div>
+        <div class="feature-media">
+          <p class="caption">Full walkthrough of the features (~15 minutes)</p>
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/9h-nO5kvqtY" title="BayaniHub full demo walkthrough" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="btn-row">
+            <a class="btn" href="https://youtu.be/9h-nO5kvqtY" target="_blank" rel="noopener">
+              <img class="logo square" src="yt-logo.png" alt="" width="34" height="34">
+              Watch on YouTube
+            </a>
+          </div>
+          <div class="shots">
+            <figure>
+              <a href="Bayanihub1.png" target="_blank" rel="noopener"><img src="Bayanihub1.png" alt="BayaniHub screenshot" loading="lazy"></a>
+              <figcaption>BayaniHub Admin Account Screenshot 1</figcaption>
+            </figure>
+            <figure>
+              <a href="Bayanihub2.png" target="_blank" rel="noopener"><img src="Bayanihub2.png" alt="BayaniHub screenshot of a project list" loading="lazy"></a>
+              <figcaption>BayaniHub Admin Account Screenshot 2</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+
+      <hr class="feature-divider">
+
+      <!-- 02 ClassConnect -->
+      <article class="feature flip">
+        <div class="feature-text">
+          <p class="num" aria-hidden="true">02</p>
+          <h3>ClassConnect</h3>
+          <p class="sub">Classroom Attendance, Support, and Communication Utility</p>
+          <p class="meta">IoT system on ESP32 and AWS. Team of 5.</p>
+          <p>An ESP32-based system that logs professor attendance through RFID, records audio through a microphone module, and sends the data through Python scripts to AWS S3 and a live web dashboard.</p>
+          <dl>
+            <dt>My role</dt>
+            <dd>Drafted the network design, led the hardware implementation, and deployed the solution on AWS. Also tested the system around campus.</dd>
+			<dt>Problems solved</dt>
+            <dd>Unreliable manual attendance checking and slow communication between professors and ITS or security support.</dd>
+          </dl>
+          <div class="btn-row">
+            <a class="btn" href="https://www.facebook.com/ClassConnectDLSULaguna" target="_blank" rel="noopener">
+              <img class="logo round" src="fb-logo.jpg" alt="" width="34" height="34">
+              ClassConnect on Facebook
+            </a>
+          </div>
+        </div>
+        <div class="feature-media">
+          <div class="shots">
+            <figure>
+              <a href="Classroom1.png" target="_blank" rel="noopener"><img src="Classroom1.png" alt="ClassConnect hardware prototype with two ESP32 boards, an RFID reader and a laptop" loading="lazy"></a>
+              <figcaption>The prototype setup</figcaption>
+            </figure>
+            <figure>
+              <a href="Classroom2.png" target="_blank" rel="noopener"><img src="Classroom2.png" alt="ClassConnect dashboard showing temperature and humidity readings" loading="lazy"></a>
+              <figcaption>Live sensor dashboard</figcaption>
+            </figure>
+            <figure>
+              <a href="classroom3.png" target="_blank" rel="noopener"><img src="classroom3.png" alt="ClassConnect list of audio recordings with playback controls" loading="lazy"></a>
+              <figcaption>Audio recordings with playback</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+
+      <hr class="feature-divider">
+
+      <!-- 03 MCO5 -->
+      <article class="feature single">
+        <div class="feature-text">
+          <p class="num" aria-hidden="true">03</p>
+          <h3>Soil Moisture Prediction with an Automated Test Pipeline</h3>
+          <p class="meta">Machine learning and CI/CD. Team of 4.</p>
+          <p>Our team built a Multilayer Perceptron and a Random Forest that predict soil moisture from hyperspectral readings. The focus was reliability and automated testing: Unit tests for all features such as data cleaning, domain splitting, scaling, band selection, both models and the metrics, plus a system test that runs the whole flow on the real dataset, all in an automated pipeline.</p>
+          <dl>
+            <dt>My role</dt>
+            <dd>Scrum Master. I ran the weekly meetings, tracked what the team had to finish each week, and kept every deliverable moving.</dd>
+            <dt>Stack</dt>
+            <dd>Python, scikit-learn, PyTorch, pytest.</dd>
+            <dt>How it runs</dt>
+            <dd>As Python scripts run locally, so there is no hosted demo.</dd>
+          </dl>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="other" class="band">
+    <div class="inner">
+      <p class="eyebrow">More work</p>
+      <h2>Other projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>University Room Booking System</h3>
+          <p>A Java system where professors check free rooms and book them under their name, which prevents overlapping schedules. It includes features for Security and ITS concerns. I led the integration of the program's methods and handled the database. This project was extended further, later integrating an AI chatbot using DialogFlow so users can get quick responses from simple questions.</p>
+        </article>
+        <article class="card">
+          <h3>White Cane with Distance Sensing and Line Tracking</h3>
+          <p>An Arduino-based smart cane to assist visually impaired users. I designed the model layout that guided the prototype.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="band">
+    <div class="inner">
+      <p class="eyebrow">Organizations</p>
+      <h2>Leadership and Organizations</h2>
+      <ul class="timeline">
+        <li><span class="when">2023 to 2025</span><div><strong>SERVIR, Founding Member (Creatives Committee)</strong>A university organization created to support the Laguna campus associate dean with academic and community work. I helped organize fundraising and volunteer work, supported project operations, and drafted the constitution and bylaws. SERVIR’s work led to AMPLIFY Volunteers, a group open to volunteers that is working toward registration in Laguna.</div></li>
+        <li><span class="when">2023 to 2025</span><div><strong>CSO-L, Member, Vice Chairperson for Publicity and Productions (2024-2025)</strong>Led publicity and relations activities; one of the head organizers of the Lasallian Enrichment Alternative Program 2023-2024</div></li>
+        <li><span class="when">2023 to 2024</span><div><strong>Lasallian Scholar Society, Finance Committee Junior Officer</strong>Supported fundraising through raffles and merchandise promotion and selling.</div></li>
+      </ul>
+      <p class="note">Fundraising and volunteer work is also the background behind BayaniHub.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="band">
+    <div class="inner">
+      <p class="eyebrow">Skills</p>
+      <h2>What I work with</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Programming Languages</h3>
+          <ul><li>C</li><li>JavaScript</li><li>Java</li><li>Python</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web Development</h3>
+          <ul><li>HTML</li><li>CSS</li><li>React</li><li>Node.js</li><li>Express</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <ul><li>PostgreSQL</li><li>MySQL</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud &amp; Deployment</h3>
+          <ul><li>AWS</li><li>Vercel</li><li>Railway</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Testing &amp; Tools</h3>
+          <ul><li>pytest</li><li>Git</li><li>GitHub</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Other</h3>
+          <ul><li>PyTorch</li><li>scikit-learn</li><li>Arduino</li><li>ESP32</li><li>Scrum</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="band message">
+    <div class="inner">
+      <p class="eyebrow">Contact</p>
+      <a class="big" href="mailto:jviancacruz123@gmail.com">jviancacruz123@gmail.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="inner">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Organizations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="totop" href="#top">Go to top &uarr;</a>
+    <small>&copy; 2026 Janah Vianca Cruz</small>
+  </div>
+</footer>
+
+<script>
+  // Respect "reduce motion": stop the background video for people who ask for it.
+  (function () {
+    var v = document.getElementById('bgVideo');
+    if (v && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      v.removeAttribute('autoplay');
+      v.pause();
+    }
+  })();
+</script>
+</body>
+</html>
